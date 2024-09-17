@@ -31,4 +31,4 @@ app.register_blueprint(ratings_bp, url_prefix='/api/ratings')
 import user.user_model
 
 if __name__ == '__main__':
-    app.run(app.run(host='0.0.0.0', port=5000))
+    app.run()
