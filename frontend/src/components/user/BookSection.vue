@@ -2,7 +2,7 @@
   <div>
     <div class="sections-container">
       <h4 class="error" v-if="error">
-        {{ error }} <a href="http://localhost:8080/"> Login </a> to Continue
+        {{ error }} <a href="/"> Login </a> to Continue
       </h4>
       <h4 v-if="message" class="delete-section">
         Section Deleted Successfully

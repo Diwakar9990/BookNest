@@ -26,9 +26,7 @@
       <div class="text">
         <h3 style="color: rgb(0, 92, 190)">
           To Login as User
-          <a
-            href="http://localhost:8080/"
-            style="text-decoration: none; color: rgb(0, 92, 190)"
+          <a href="/" style="text-decoration: none; color: rgb(0, 92, 190)"
             >click here</a
           >
         </h3>

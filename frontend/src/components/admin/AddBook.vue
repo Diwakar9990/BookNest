@@ -1,7 +1,7 @@
 <template>
   <div>
     <h4 class="error" v-if="error">
-      Please <a href="http://localhost:8080/"> Login </a> as Admin to Continue
+      Please <a href="/"> Login </a> as Admin to Continue
     </h4>
     <div v-else class="section-form">
       <h2>Add a New Book</h2>

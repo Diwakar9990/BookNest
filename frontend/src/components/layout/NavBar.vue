@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <nav>
-      <h1><a href="http://localhost:8080/home">BookNest</a></h1>
+      <h1><a href="/home">BookNest</a></h1>
       <div class="search-box">
         <form class="search" @submit.prevent="searchBooks">
           <select class="search-input" v-model="searchType" required>

@@ -33,9 +33,7 @@
       <div class="text">
         <h3 style="color: rgb(0, 92, 190)">
           Already have an account?
-          <a
-            href="http://localhost:8080/"
-            style="text-decoration: none; color: rgb(0, 92, 190)"
+          <a href="/" style="text-decoration: none; color: rgb(0, 92, 190)"
             >Login now</a
           >
         </h3>
@@ -43,9 +41,7 @@
       <div class="text">
         <h2>
           To Login as Admin
-          <a
-            href="http://localhost:8080/admin-login"
-            style="text-decoration: none; color: #fff"
+          <a href="/admin-login" style="text-decoration: none; color: #fff"
             >Click Here</a
           >
         </h2>

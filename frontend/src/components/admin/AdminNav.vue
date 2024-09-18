@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <nav>
-      <h1><a href="http://localhost:8080/admin-home">BookNest</a></h1>
+      <h1><a href="/admin-home">BookNest</a></h1>
     </nav>
   </div>
 </template>

@@ -13,28 +13,28 @@
         <div class="menu-seprator"></div>
       </h4>
       <li>
-        <a href="http://localhost:8080/admin-home">
+        <a href="/admin-home">
           <span class="material-symbols-outlined"> Dashboard </span> Dashboard
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/admin/books">
+        <a href="/admin/books">
           <span class="material-symbols-outlined"> Book </span> All books
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/admin/sections">
+        <a href="/admin/sections">
           <span class="material-symbols-outlined"> Menu </span> Sections
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/admin/pending-requests">
+        <a href="/admin/pending-requests">
           <span class="material-symbols-outlined"> Label </span> Pending
           Requests
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/admin/accepted-requests">
+        <a href="/admin/accepted-requests">
           <span class="material-symbols-outlined"> Task </span> Requests Granted
         </a>
       </li>
@@ -43,12 +43,12 @@
         <div class="menu-seprator"></div>
       </h4>
       <li>
-        <a href="http://localhost:8080/add-book">
+        <a href="/add-book">
           <span class="material-symbols-outlined"> Edit </span> Add Books
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/add-section">
+        <a href="/add-section">
           <span class="material-symbols-outlined"> Add </span> Add Sections
         </a>
       </li>

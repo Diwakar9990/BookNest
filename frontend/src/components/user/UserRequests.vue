@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h4 class="error" v-if="err">
-      Please <a href="http://localhost:8080/"> login </a> to Continue
-    </h4>
+    <h4 class="error" v-if="err">Please <a href="/"> login </a> to Continue</h4>
     <h4 class="error" v-if="error">
       {{ error }}
     </h4>

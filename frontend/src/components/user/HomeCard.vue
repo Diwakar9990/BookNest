@@ -2,7 +2,7 @@
   <div>
     <h4 class="error" v-if="error">
       {{ error }}
-      <a href="http://localhost:8080/"> Login </a> to Continue
+      <a href="/"> Login </a> to Continue
     </h4>
 
     <div v-if="books.length">

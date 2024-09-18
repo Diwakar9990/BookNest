@@ -1,8 +1,7 @@
 <template>
   <div>
     <h4 class="error" v-if="msg">
-      {{ msg }}<a href="http://localhost:8080/admin-login"> Login </a> as Admin
-      to Continue
+      {{ msg }}<a href="/admin-login"> Login </a> as Admin to Continue
     </h4>
     <h4 class="error" v-if="error">{{ error }}</h4>
     <div v-if="requests.length">

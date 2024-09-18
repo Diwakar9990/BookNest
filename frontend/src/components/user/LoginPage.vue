@@ -27,7 +27,7 @@
         <h3 style="color: rgb(0, 92, 190)">
           Don't have an account?
           <a
-            href="http://localhost:8080/register"
+            href="/register"
             style="text-decoration: none; color: rgb(0, 92, 190)"
             >Register now</a
           >

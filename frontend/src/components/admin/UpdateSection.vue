@@ -2,7 +2,7 @@
   <div>
     <h4 class="error" v-if="error">
       Please
-      <a href="http://localhost:8080/">Login</a>
+      <a href="/">Login</a>
       to Continue
     </h4>
     <div v-else class="section-form">

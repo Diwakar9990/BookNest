@@ -13,12 +13,12 @@
         <div class="menu-seprator"></div>
       </h4>
       <li>
-        <a href="http://localhost:8080/home">
+        <a href="/home">
           <span class="material-symbols-outlined"> Dashboard </span> All Books
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/sections">
+        <a href="/sections">
           <span class="material-symbols-outlined"> Menu </span> Sections
         </a>
       </li>
@@ -27,12 +27,12 @@
         <div class="menu-seprator"></div>
       </h4>
       <li>
-        <a href="http://localhost:8080/my-books">
+        <a href="/my-books">
           <span class="material-symbols-outlined"> Book </span> My Books
         </a>
       </li>
       <li>
-        <a href="http://localhost:8080/user-requests">
+        <a href="/user-requests">
           <span class="material-symbols-outlined"> Label </span> My Requests
         </a>
       </li>
@@ -41,7 +41,7 @@
         <div class="menu-seprator"></div>
       </h4>
       <li>
-        <a href="http://localhost:8080/user-details">
+        <a href="/user-details">
           <span class="material-symbols-outlined"> Person </span> Profile
         </a>
       </li>
@@ -63,7 +63,7 @@ export default {
     async logout() {
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/users/logout",
+          "https://booknest-m2z6.onrender.com/api/users/logout",
           {},
           {
             withCredentials: true,
