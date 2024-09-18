@@ -63,7 +63,7 @@ export default {
     async fetchPendingRequests() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/requests/get-pending-requests",
+          "https://booknest-m2z6.onrender.com/api/requests/get-pending-requests",
           {
             withCredentials: true,
           }
@@ -83,7 +83,7 @@ export default {
     async updateRequest(id, action) {
       try {
         const response = await axios.put(
-          `http://localhost:5000/api/requests/update/${id}`,
+          `https://booknest-m2z6.onrender.com/api/requests/update/${id}`,
           { action: action },
           {
             withCredentials: true,

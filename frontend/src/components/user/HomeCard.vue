@@ -49,7 +49,7 @@
     methods: {
       async fetchBooks() {
         try {
-          const response = await axios.get("http://localhost:5000/api/books/", {
+          const response = await axios.get("https://booknest-m2z6.onrender.com/api/books/", {
             withCredentials: true,
           });
           console.log(response.data);
@@ -68,7 +68,7 @@
       async requestBook(id) {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/requests/new/${id}`,
+          `https://booknest-m2z6.onrender.com/api/requests/new/${id}`,
           {
             withCredentials: true,
           }

@@ -72,7 +72,7 @@ export default {
     async fetchStats() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/books/stats",
+          "https://booknest-m2z6.onrender.com/api/books/stats",
           {
             withCredentials: true,
           }
@@ -86,7 +86,7 @@ export default {
     async fetchBooksBySection() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/books/section_counts",
+          "https://booknest-m2z6.onrender.com/api/books/section_counts",
           {
             withCredentials: true,
           }
@@ -100,7 +100,7 @@ export default {
     async fetchMostRatedBooks() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/books/most_rated",
+          "https://booknest-m2z6.onrender.com/api/books/most_rated",
           {
             withCredentials: true,
           }

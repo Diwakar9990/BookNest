@@ -56,7 +56,7 @@ export default {
     async fetchUserDetails() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/users/details",
+          "https://booknest-m2z6.onrender.com/api/users/details",
           { withCredentials: true }
         );
         this.user = response.data.res;

@@ -34,7 +34,7 @@ export default {
     async submitRating() {
       try {
         const response = await axios.post(
-          `http://localhost:5000/api/ratings/${this.bookId}`,
+          `https://booknest-m2z6.onrender.com/api/ratings/${this.bookId}`,
           { rate: this.rate, feedback: this.feedback },
           { withCredentials: true }
         );

@@ -54,9 +54,12 @@ export default {
   methods: {
     async fetchSections() {
       try {
-        const response = await axios.get("http://localhost:5000/api/sections", {
-          withCredentials: true,
-        });
+        const response = await axios.get(
+          "https://booknest-m2z6.onrender.com/api/sections",
+          {
+            withCredentials: true,
+          }
+        );
         this.sections = response.data.res;
       } catch (error) {
         this.error = error.response
@@ -67,7 +70,7 @@ export default {
     async deleteSection(id) {
       try {
         const response = await axios.delete(
-          `http://localhost:5000/api/sections/${id}`,
+          `https://booknest-m2z6.onrender.com/api/sections/${id}`,
           {
             withCredentials: true,
           }

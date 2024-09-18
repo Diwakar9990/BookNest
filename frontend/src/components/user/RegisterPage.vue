@@ -73,7 +73,7 @@ export default {
       }
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/users/register",
+          "https://booknest-m2z6.onrender.com/api/users/register",
           {
             username: this.username,
             email: this.email,

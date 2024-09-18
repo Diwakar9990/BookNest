@@ -7,6 +7,8 @@ cors = CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http:
 #setup the Configurations
 app.config.from_prefixed_env()
 app.config['JWT_COOKIE_CSRF_PROTECT'] = False
+app.config['JWT_COOKIE_SAMESITE'] = 'None'
+app.config['JWT_COOKIE_SECURE'] = True 
 
 #user @/api/users
 from user.user_routes import user_bp

@@ -45,7 +45,7 @@ export default {
   methods: {
     async fetchBooks() {
       try {
-        const response = await axios.get("http://localhost:5000/api/books/request-status-accepted", {
+        const response = await axios.get("https://booknest-m2z6.onrender.com/api/books/request-status-accepted", {
           withCredentials: true,
         });
         console.log(response.data);

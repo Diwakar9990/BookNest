@@ -40,7 +40,7 @@ export default {
     async createSection() {
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/sections/",
+          "https://booknest-m2z6.onrender.com/api/sections/",
           {
             name: this.name,
             description: this.description,

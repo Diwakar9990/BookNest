@@ -66,9 +66,12 @@ export default {
   methods: {
     async fetchSections() {
       try {
-        const response = await axios.get("http://localhost:5000/api/sections", {
-          withCredentials: true,
-        });
+        const response = await axios.get(
+          "https://booknest-m2z6.onrender.com/api/sections",
+          {
+            withCredentials: true,
+          }
+        );
         this.sections = response.data.res;
       } catch (error) {
         this.error = error.response
@@ -79,7 +82,7 @@ export default {
     async getBook() {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/books/${this.id}`,
+          `https://booknest-m2z6.onrender.com/api/books/${this.id}`,
           {
             withCredentials: true,
           }
@@ -99,7 +102,7 @@ export default {
     async updateBook() {
       try {
         const response = await axios.put(
-          `http://localhost:5000/api/books/${this.id}`,
+          `https://booknest-m2z6.onrender.com/api/books/${this.id}`,
           {
             title: this.book.title,
             content: this.book.content,

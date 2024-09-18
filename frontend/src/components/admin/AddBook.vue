@@ -68,9 +68,12 @@ export default {
   methods: {
     async fetchSections() {
       try {
-        const response = await axios.get("http://localhost:5000/api/sections", {
-          withCredentials: true,
-        });
+        const response = await axios.get(
+          "https://booknest-m2z6.onrender.com/api/sections",
+          {
+            withCredentials: true,
+          }
+        );
         this.sections = response.data.res;
       } catch (error) {
         this.error = error.response
@@ -91,7 +94,7 @@ export default {
 
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/books/",
+          "https://booknest-m2z6.onrender.com/api/books/",
           formData,
           {
             withCredentials: true,

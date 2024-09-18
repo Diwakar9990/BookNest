@@ -45,7 +45,7 @@ export default {
     async getSection() {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/sections/${this.id}`,
+          `https://booknest-m2z6.onrender.com/api/sections/${this.id}`,
           {
             withCredentials: true,
           }
@@ -67,7 +67,7 @@ export default {
     async updateSection() {
       try {
         const response = await axios.put(
-          `http://localhost:5000/api/sections/${this.id}`,
+          `https://booknest-m2z6.onrender.com/api/sections/${this.id}`,
           {
             name: this.name,
             description: this.description,

@@ -74,7 +74,7 @@ export default {
     async logout() {
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/users/logout",
+          "https://booknest-m2z6.onrender.com/api/users/logout",
           {},
           {
             withCredentials: true,

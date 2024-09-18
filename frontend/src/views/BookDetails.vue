@@ -99,13 +99,13 @@ export default {
     async fetchBooks() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/books/" + this.id,
+          "https://booknest-m2z6.onrender.com/api/books/" + this.id,
           {
             withCredentials: true,
           }
         );
         const response2 = await axios.get(
-          "http://localhost:5000/api/ratings/average/" + this.id,
+          "https://booknest-m2z6.onrender.com/api/ratings/average/" + this.id,
           {
             withCredentials: true,
           }
@@ -128,7 +128,7 @@ export default {
     async fetchRatings() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/ratings/" + this.id,
+          "https://booknest-m2z6.onrender.com/api/ratings/" + this.id,
           {
             withCredentials: true,
           }
@@ -144,7 +144,7 @@ export default {
       }
     },
     downloadBook() {
-      const fileUrl = `http://localhost:5000/api/books/download/${this.book.ebook_url}`;
+      const fileUrl = `https://booknest-m2z6.onrender.com/api/books/download/${this.book.ebook_url}`;
       window.open(fileUrl);
     },
     handleRatingSubmitted(data) {

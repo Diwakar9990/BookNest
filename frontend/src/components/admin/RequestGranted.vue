@@ -55,7 +55,7 @@ export default {
     async fetchGrantedRequests() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/requests/get-granted-requests",
+          "https://booknest-m2z6.onrender.com/api/requests/get-granted-requests",
           {
             withCredentials: true,
           }
@@ -75,7 +75,7 @@ export default {
     async deleteRequest(id) {
       try {
         const response = await axios.delete(
-          `http://localhost:5000/api/requests/delete/${id}`,
+          `https://booknest-m2z6.onrender.com/api/requests/delete/${id}`,
           {
             withCredentials: true,
           }
