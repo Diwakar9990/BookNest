@@ -63,7 +63,7 @@ export default {
 
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/books/search",
+          "https://booknest-m2z6.onrender.com/api/books/search",
           searchCriteria,
           { withCredentials: true }
         );
@@ -77,7 +77,7 @@ export default {
     async requestBook(id) {
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/requests/new/${id}`,
+          `https://booknest-m2z6.onrender.com/api/requests/new/${id}`,
           {
             withCredentials: true,
           }
