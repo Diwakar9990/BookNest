@@ -36,9 +36,7 @@
       <div class="text">
         <h2>
           To Login as Admin
-          <a
-            href="http://localhost:8080/admin-login"
-            style="text-decoration: none; color: #fff"
+          <a href="/admin-login" style="text-decoration: none; color: #fff"
             >Click Here</a
           >
         </h2>

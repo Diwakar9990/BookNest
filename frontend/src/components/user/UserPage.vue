@@ -69,7 +69,7 @@ export default {
     async fetchUserRequests() {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/requests/user-request-details",
+          "https://booknest-m2z6.onrender.com/api/requests/user-request-details",
           { withCredentials: true }
         );
         this.requests = response.data.result;
