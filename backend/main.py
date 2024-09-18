@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 #Creating a Flask instance
 app = Flask(__name__) 
-cors = CORS(app, supports_credentials=True, resources={r"/*": {"origins": ["https://booknestapp.netlify.app/","http://localhost:8080"]}})
+cors = CORS(app, supports_credentials=True, resources={r"/*": {"origins": ["https://booknestapp.netlify.app","http://localhost:8080"]}})
 #setup the Configurations
 app.config.from_prefixed_env()
 app.config['JWT_COOKIE_CSRF_PROTECT'] = False
